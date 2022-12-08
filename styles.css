@@ -6,7 +6,7 @@
   --very-dark-blue: hsl(234, 12%, 34%);
   --graysih-blue: hsl(229, 6%, 66%);
   --very-light-gray: hsl(0, 0%, 98%);
-  --font-size: 15px;
+  --font-size: 12px;
   --font-family: "Poppins", sans-serif;
   --font-light: 200;
   --font-mid: 400;
@@ -23,7 +23,26 @@ html {
 
 body {
   margin: 0;
-  padding: 2rem 1rem;
+  padding: 4rem 2rem;
   font-family: var(--font-family);
-  font-size: var(--font-size)
+  font-size: var(--font-size);
+  background-color: var(--very-light-gray);
+  color: var(--very-dark-blue);
+}
+
+.light-heading {
+  font-weight: var(--font-light);
+  margin: 0;
+  text-align: center;
+}
+
+.bold-heading {
+  font-weight: var(--font-bold);
+  margin: 0;
+  text-align: center;
+}
+
+.service-descrip {
+  color: var(--graysih-blue);
+  text-align: center;
 }
