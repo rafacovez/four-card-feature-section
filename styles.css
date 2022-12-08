@@ -8,3 +8,16 @@
   --very-light-gray: hsl(0, 0%, 98%);
   --font-size: 15px;
 }
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
