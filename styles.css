@@ -7,6 +7,10 @@
   --graysih-blue: hsl(229, 6%, 66%);
   --very-light-gray: hsl(0, 0%, 98%);
   --font-size: 15px;
+  --font-family: "Poppins", sans-serif;
+  --font-light: 200;
+  --font-mid: 400;
+  --font-bold: 600;
 }
 
 html {
@@ -20,4 +24,6 @@ html {
 body {
   margin: 0;
   padding: 2rem 1rem;
+  font-family: var(--font-family);
+  font-size: var(--font-size)
 }
