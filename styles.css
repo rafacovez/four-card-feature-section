@@ -89,3 +89,18 @@ body {
   float: right;
   margin: 2rem 0 0 0;
 }
+
+.attribution {
+  text-align: center;
+  color: var(--graysih-blue)
+}
+
+.attribution > a {
+  color: var(--very-dark-blue);
+  opacity: 0.8;
+}
+
+.attribution > a:hover {
+  opacity: 1;
+  text-decoration: none;
+}
