@@ -23,7 +23,7 @@ html {
 
 body {
   margin: 0;
-  padding: 2rem 1rem;
+  padding: 4rem 2rem;
   font-family: var(--font-family);
   font-size: var(--font-size);
   background-color: var(--very-light-gray);
@@ -45,6 +45,7 @@ body {
 .service-descrip {
   color: var(--graysih-blue);
   text-align: center;
+  line-height: 28px;
 }
 
 .modal {
@@ -80,8 +81,11 @@ body {
 .modal-descrip {
   color: var(--graysih-blue);
   font-weight: var(--font-mid);
+  margin: .5rem 0;
+  line-height: 28px;
 }
 
 .modal-icon {
   float: right;
+  margin: 2rem 0 0 0;
 }
