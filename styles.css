@@ -51,8 +51,9 @@ body {
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   border-top: solid 4px;
-  padding: 1rem;
+  padding: 2rem;
   margin: 2rem 0;
+  overflow: auto;
 }
 
 .modal.light-blue {
@@ -79,4 +80,8 @@ body {
 .modal-descrip {
   color: var(--graysih-blue);
   font-weight: var(--font-mid);
+}
+
+.modal-icon {
+  float: right;
 }
