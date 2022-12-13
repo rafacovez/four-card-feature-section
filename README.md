@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitHub repository](https://github.com/rafacovez/four-card-feature-section)
-- Live Site URL: [Live site](https://product-preview-card-component-ten-gamma.vercel.app/)
+- Live Site URL: [Live site](https://four-card-feature-section-qkdhsqcs2-rafdidact.vercel.app)
 
 ## Author
 
