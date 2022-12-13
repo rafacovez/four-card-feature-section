@@ -30,22 +30,21 @@ body {
   color: var(--very-dark-blue);
 }
 
-.light-heading {
-  display: block;
-  font-size: calc(var(--font-size) * 1.5);
-  font-weight: var(--font-light);
+.heading {
+  font-size: calc(var(--font-size) * 1.8);
   line-height: calc(var(--font-size) * 1.5);
   margin: 0;
   text-align: center;
 }
 
+.light-heading {
+  display: block;
+  font-weight: var(--font-light);
+}
+
 .bold-heading {
   display: block;
-  font-size: calc(var(--font-size) * 1.5);
   font-weight: var(--font-bold);
-  line-height: calc(var(--font-size) * 1.5);
-  margin: 0;
-  text-align: center;
 }
 
 .service-descrip {
