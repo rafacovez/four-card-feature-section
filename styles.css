@@ -31,6 +31,7 @@ body {
 }
 
 .light-heading {
+  display: block;
   font-size: calc(var(--font-size) * 1.5);
   font-weight: var(--font-light);
   line-height: calc(var(--font-size) * 1.5);
@@ -39,6 +40,7 @@ body {
 }
 
 .bold-heading {
+  display: block;
   font-size: calc(var(--font-size) * 1.5);
   font-weight: var(--font-bold);
   line-height: calc(var(--font-size) * 1.5);
